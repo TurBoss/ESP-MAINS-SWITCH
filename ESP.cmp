@@ -1,0 +1,195 @@
+Cmp-Mod V01 Created by PcbNew   date = lun 12 oct 2015 02:41:01 CEST
+
+BeginCmp
+TimeStamp = 5615B484
+Path = /5608BC3E
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5615B4C6
+Path = /5608A77D
+Reference = R12;
+ValeurCmp = 100;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5615B4F7
+Path = /5608A7E7
+Reference = U4;
+ValeurCmp = BT808;
+IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = 561951DF
+Path = /56119E27
+Reference = U2;
+ValeurCmp = ESP-13-WROOM-02;
+IdModule  = ESP8266:ESP-13-WROOM-02;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619C302
+Path = /5608AA86
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619C307
+Path = /5608DE38
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619C30C
+Path = /5608BB29
+Reference = R8;
+ValeurCmp = 100;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619C311
+Path = /5608BA2B
+Reference = R9;
+ValeurCmp = 68;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619C316
+Path = /5608B2CD
+Reference = R10;
+ValeurCmp = 390;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619C31B
+Path = /5608B25B
+Reference = R11;
+ValeurCmp = 470;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619C320
+Path = /5608A1AB
+Reference = U1;
+ValeurCmp = 4N35;
+IdModule  = Sockets_DIP:DIP-6__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619C329
+Path = /5608A238
+Reference = U3;
+ValeurCmp = MOC3041M;
+IdModule  = Sockets_DIP:DIP-6__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619C5D2
+Path = /5608A63B
+Reference = C1;
+ValeurCmp = 0.1 400V;
+IdModule  = Capacitors_ThroughHole:C_Rect_L18_W7_P15;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619C6DD
+Path = /5608B6CD
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619CC50
+Path = /5608A3D9
+Reference = P1;
+ValeurCmp = CONN;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619CC55
+Path = /5608D887
+Reference = P2;
+ValeurCmp = CONN;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619CC5A
+Path = /5608A446
+Reference = P4;
+ValeurCmp = CONN;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619D0AC
+Path = /5619D38D
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619D0B2
+Path = /5619D350
+Reference = R4;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619D0B8
+Path = /5619D315
+Reference = R5;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619D0BE
+Path = /5619D2CC
+Reference = R6;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619D0C4
+Path = /5619DD7A
+Reference = R7;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5619D108
+Path = /5619E0D3
+Reference = P3;
+ValeurCmp = CONN;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 561AFE61
+Path = /561AFE96
+Reference = P5;
+ValeurCmp = CONN;
+IdModule  = Connect:bornier2;
+EndCmp
+
+EndListe
