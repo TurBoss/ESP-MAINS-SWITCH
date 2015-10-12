@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ESP8266
 LIBS:ESP-cache
 EELAYER 25 0
 EELAYER END
@@ -50,7 +49,7 @@ U 1 1 5608A1AB
 P 2500 4200
 F 0 "U1" H 2300 4400 50  0000 L CNN
 F 1 "4N35" H 2500 4400 50  0000 L CNN
-F 2 "Sockets_DIP:DIP-6__300_ELL" H 2300 4000 50  0000 L CIN
+F 2 "Sockets_DIP:DIP-6__300_ELL" H 2300 4000 50  0001 L CIN
 F 3 "" H 2500 4200 50  0000 L CNN
 	1    2500 4200
 	1    0    0    -1  
@@ -61,7 +60,7 @@ U 1 1 5608A238
 P 6750 4700
 F 0 "U3" H 6540 4890 50  0000 L CNN
 F 1 "MOC3041M" H 6750 4900 50  0000 L CNN
-F 2 "Sockets_DIP:DIP-6__300_ELL" H 6550 4500 50  0000 L CIN
+F 2 "Sockets_DIP:DIP-6__300_ELL" H 6550 4500 50  0001 L CIN
 F 3 "" H 6725 4700 50  0000 L CNN
 	1    6750 4700
 	1    0    0    -1  
@@ -71,8 +70,8 @@ L CONN_01X02 P1
 U 1 1 5608A3D9
 P 1200 4150
 F 0 "P1" H 1200 4300 50  0000 C CNN
-F 1 "CONN" V 1300 4150 50  0000 C CNN
-F 2 "Connect:bornier2" H 1200 4150 60  0000 C CNN
+F 1 "BTN" V 1300 4150 50  0000 C CNN
+F 2 "Connect:bornier2" H 1200 4150 60  0001 C CNN
 F 3 "" H 1200 4150 60  0000 C CNN
 	1    1200 4150
 	-1   0    0    1   
@@ -82,8 +81,8 @@ L CONN_01X02 P4
 U 1 1 5608A446
 P 9900 4850
 F 0 "P4" H 9900 5000 50  0000 C CNN
-F 1 "CONN" V 10000 4850 50  0000 C CNN
-F 2 "Connect:bornier2" H 9900 4850 60  0000 C CNN
+F 1 "LAMP" V 10000 4850 50  0000 C CNN
+F 2 "Connect:bornier2" H 9900 4850 60  0001 C CNN
 F 3 "" H 9900 4850 60  0000 C CNN
 	1    9900 4850
 	1    0    0    -1  
@@ -94,7 +93,7 @@ U 1 1 5608A63B
 P 8750 5000
 F 0 "C1" H 8775 5100 50  0000 L CNN
 F 1 "0.1 400V" H 8775 4900 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L18_W7_P15" H 8788 4850 30  0000 C CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L18_W7_P15" H 8788 4850 30  0001 C CNN
 F 3 "" H 8750 5000 60  0000 C CNN
 	1    8750 5000
 	1    0    0    -1  
@@ -105,7 +104,7 @@ U 1 1 5608A77D
 P 8750 4550
 F 0 "R12" V 8830 4550 50  0000 C CNN
 F 1 "100" V 8750 4550 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 8680 4550 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 8680 4550 30  0001 C CNN
 F 3 "" H 8750 4550 30  0000 C CNN
 	1    8750 4550
 	1    0    0    -1  
@@ -116,7 +115,7 @@ U 1 1 5608A7E7
 P 8000 4800
 F 0 "U4" H 7750 5150 50  0000 C CNN
 F 1 "BT808" H 7700 4550 50  0000 C CNN
-F 2 "Transistors_TO-220:TO-220_Neutral123_Vertical_LargePads" H 8000 4800 60  0000 C CNN
+F 2 "Transistors_TO-220:TO-220_Neutral123_Vertical_LargePads" H 8000 4800 60  0001 C CNN
 F 3 "" H 8000 4800 60  0000 C CNN
 	1    8000 4800
 	1    0    0    -1  
@@ -127,7 +126,7 @@ U 1 1 5608AA86
 P 1850 4100
 F 0 "R1" V 1930 4100 50  0000 C CNN
 F 1 "1K" V 1850 4100 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1780 4100 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1780 4100 30  0001 C CNN
 F 3 "" H 1850 4100 30  0000 C CNN
 	1    1850 4100
 	0    1    1    0   
@@ -138,7 +137,7 @@ U 1 1 5608B25B
 P 7550 5150
 F 0 "R11" V 7630 5150 50  0000 C CNN
 F 1 "470" V 7550 5150 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7480 5150 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7480 5150 30  0001 C CNN
 F 3 "" H 7550 5150 30  0000 C CNN
 	1    7550 5150
 	0    1    1    0   
@@ -149,7 +148,7 @@ U 1 1 5608B2CD
 P 7550 4400
 F 0 "R10" V 7630 4400 50  0000 C CNN
 F 1 "390" V 7550 4400 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7480 4400 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7480 4400 30  0001 C CNN
 F 3 "" H 7550 4400 30  0000 C CNN
 	1    7550 4400
 	0    -1   -1   0   
@@ -160,7 +159,7 @@ U 1 1 5608B6CD
 P 9400 4800
 F 0 "F1" H 9500 4850 50  0000 C CNN
 F 1 "FUSE" H 9300 4750 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" H 9400 4800 60  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" H 9400 4800 60  0001 C CNN
 F 3 "" H 9400 4800 60  0000 C CNN
 	1    9400 4800
 	1    0    0    -1  
@@ -171,7 +170,7 @@ U 1 1 5608BA2B
 P 6250 4600
 F 0 "R9" V 6330 4600 50  0000 C CNN
 F 1 "68" V 6250 4600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6180 4600 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6180 4600 30  0001 C CNN
 F 3 "" H 6250 4600 30  0000 C CNN
 	1    6250 4600
 	0    -1   -1   0   
@@ -193,7 +192,7 @@ U 1 1 5608BB29
 P 6000 4750
 F 0 "R8" V 6080 4750 50  0000 C CNN
 F 1 "100" V 6000 4750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5930 4750 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5930 4750 30  0001 C CNN
 F 3 "" H 6000 4750 30  0000 C CNN
 	1    6000 4750
 	1    0    0    -1  
@@ -204,7 +203,7 @@ U 1 1 5608BC3E
 P 6000 5150
 F 0 "D1" H 6000 5250 50  0000 C CNN
 F 1 "LED" H 6000 5050 50  0000 C CNN
-F 2 "LEDs:LED-3MM" H 6000 5150 60  0000 C CNN
+F 2 "LEDs:LED-3MM" H 6000 5150 60  0001 C CNN
 F 3 "" H 6000 5150 60  0000 C CNN
 	1    6000 5150
 	0    -1   -1   0   
@@ -215,7 +214,7 @@ U 1 1 5608DE38
 P 3200 4100
 F 0 "R3" V 3280 4100 50  0000 C CNN
 F 1 "10K" V 3200 4100 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3130 4100 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3130 4100 30  0001 C CNN
 F 3 "" H 3200 4100 30  0000 C CNN
 	1    3200 4100
 	0    1    1    0   
@@ -225,8 +224,8 @@ L CONN_01X02 P2
 U 1 1 5608D887
 P 1200 4750
 F 0 "P2" H 1200 4900 50  0000 C CNN
-F 1 "CONN" V 1300 4750 50  0000 C CNN
-F 2 "Connect:bornier2" H 1200 4750 60  0000 C CNN
+F 1 "- +" V 1300 4750 50  0000 C CNN
+F 2 "Connect:bornier2" H 1200 4750 60  0001 C CNN
 F 3 "" H 1200 4750 60  0000 C CNN
 	1    1200 4750
 	-1   0    0    1   
@@ -263,7 +262,7 @@ U 1 1 56119E27
 P 5050 1500
 F 0 "U2" H 5050 1400 50  0000 C CNN
 F 1 "ESP-13-WROOM-02" H 5050 1950 50  0000 C CNN
-F 2 "ESP8266:ESP-13-WROOM-02" H 4950 1500 50  0000 C CNN
+F 2 "ESP8266:ESP-13-WROOM-02" H 4950 1500 50  0001 C CNN
 F 3 "" H 4950 1500 50  0001 C CNN
 	1    5050 1500
 	1    0    0    -1  
@@ -300,7 +299,7 @@ U 1 1 5619D2CC
 P 3650 1000
 F 0 "R6" V 3730 1000 50  0000 C CNN
 F 1 "1K" V 3650 1000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3580 1000 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3580 1000 30  0001 C CNN
 F 3 "" H 3650 1000 30  0000 C CNN
 	1    3650 1000
 	1    0    0    -1  
@@ -311,7 +310,7 @@ U 1 1 5619D315
 P 3500 1000
 F 0 "R5" V 3580 1000 50  0000 C CNN
 F 1 "1K" V 3500 1000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3430 1000 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3430 1000 30  0001 C CNN
 F 3 "" H 3500 1000 30  0000 C CNN
 	1    3500 1000
 	1    0    0    -1  
@@ -322,7 +321,7 @@ U 1 1 5619D350
 P 3350 1000
 F 0 "R4" V 3430 1000 50  0000 C CNN
 F 1 "1K" V 3350 1000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3280 1000 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3280 1000 30  0001 C CNN
 F 3 "" H 3350 1000 30  0000 C CNN
 	1    3350 1000
 	1    0    0    -1  
@@ -333,7 +332,7 @@ U 1 1 5619D38D
 P 3200 1000
 F 0 "R2" V 3280 1000 50  0000 C CNN
 F 1 "1K" V 3200 1000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3130 1000 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3130 1000 30  0001 C CNN
 F 3 "" H 3200 1000 30  0000 C CNN
 	1    3200 1000
 	1    0    0    -1  
@@ -344,7 +343,7 @@ U 1 1 5619DD7A
 P 3650 2100
 F 0 "R7" V 3730 2100 50  0000 C CNN
 F 1 "1K" V 3650 2100 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3580 2100 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3580 2100 30  0001 C CNN
 F 3 "" H 3650 2100 30  0000 C CNN
 	1    3650 2100
 	1    0    0    -1  
@@ -354,8 +353,8 @@ L CONN_01X02 P3
 U 1 1 5619E0D3
 P 3150 2050
 F 0 "P3" H 3150 2200 50  0000 C CNN
-F 1 "CONN" V 3250 2050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3150 2050 60  0000 C CNN
+F 1 "PROG" V 3250 2050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3150 2050 60  0001 C CNN
 F 3 "" H 3150 2050 60  0000 C CNN
 	1    3150 2050
 	-1   0    0    1   
@@ -366,7 +365,7 @@ U 1 1 561AFE96
 P 1700 1350
 F 0 "P5" H 1700 1500 50  0000 C CNN
 F 1 "CONN" V 1800 1350 50  0000 C CNN
-F 2 "Connect:bornier2" H 1700 1350 60  0000 C CNN
+F 2 "Connect:bornier2" H 1700 1350 60  0001 C CNN
 F 3 "" H 1700 1350 60  0000 C CNN
 	1    1700 1350
 	-1   0    0    1   
@@ -473,10 +472,6 @@ Connection ~ 3950 2300
 Wire Wire Line
 	3350 2300 6150 2300
 Wire Wire Line
-	6150 2300 6150 1200
-Wire Wire Line
-	6000 1700 6150 1700
-Wire Wire Line
 	3950 2000 3950 2400
 Wire Wire Line
 	4050 2000 3950 2000
@@ -518,7 +513,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 4800 2100 4800
 Wire Wire Line
-	1400 4700 1650 4700
+	1650 4700 1400 4700
 Connection ~ 3000 4200
 Wire Wire Line
 	2800 4200 3650 4200
@@ -557,4 +552,23 @@ Wire Wire Line
 	7700 4400 9050 4400
 Wire Wire Line
 	8750 4850 8750 4700
+$Comp
+L CONN_01X03 P6
+U 1 1 561C43DA
+P 7250 1800
+F 0 "P6" H 7250 2000 50  0000 C CNN
+F 1 "RX TX G" V 7350 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 7250 1800 60  0001 C CNN
+F 3 "" H 7250 1800 60  0000 C CNN
+	1    7250 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1900 6000 1900
+Wire Wire Line
+	6000 1800 7050 1800
+Wire Wire Line
+	6150 2300 6150 1200
+Wire Wire Line
+	6000 1700 7050 1700
 $EndSCHEMATC
